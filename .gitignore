@@ -1,0 +1,6 @@
+# https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+# Create: touch .gitignore
+# Remove already check in files: git rm --cached FILENAME
+.DS_Store
+.Rhistory
+*.pdf
