@@ -3,7 +3,9 @@
 # Remove already check in files: git rm --cached FILENAME
 # If you want to store the list of ignored files outside of your Git tree, you can use the .git/info/exclude
 
+C++/**
+!C++/**.*
+
 **.DS_Store
 **.Rhistory
 **.pdf
-**.exe
